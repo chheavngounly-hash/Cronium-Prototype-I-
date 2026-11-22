@@ -1,0 +1,90 @@
+<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'>
+<head>
+<meta charset='utf-8'>
+<title>Cronium Chat Prompts Archive</title>
+<!--[if gte mso 9]>
+<xml>
+<w:WordDocument>
+<w:View>Print</w:View>
+<w:Zoom>100</w:Zoom>
+<w:DoNotOptimizeForBrowser/>
+</w:WordDocument>
+</xml>
+<![endif]-->
+<style>
+body {
+  font-family: 'Calibri', 'Segoe UI', Arial, sans-serif;
+  margin: 40px;
+  color: #1e293b;
+  line-height: 1.6;
+}
+.header {
+  border-bottom: 2px solid #4338ca;
+  padding-bottom: 12px;
+  margin-bottom: 24px;
+}
+h1 {
+  color: #1e1b4b;
+  font-size: 26pt;
+  margin: 0 0 6px 0;
+}
+.subtitle {
+  color: #64748b;
+  font-size: 11pt;
+  margin: 0;
+}
+.prompt-card {
+  background-color: #f8fafc;
+  border-left: 4px solid #4f46e5;
+  border-top: 1px solid #e2e8f0;
+  border-right: 1px solid #e2e8f0;
+  border-bottom: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 16px 20px;
+  margin-bottom: 24px;
+}
+.prompt-title {
+  color: #4338ca;
+  font-size: 14pt;
+  font-weight: bold;
+  margin: 0 0 4px 0;
+}
+.prompt-meta {
+  color: #64748b;
+  font-size: 9.5pt;
+  margin: 0 0 12px 0;
+}
+.prompt-body {
+  background-color: #ffffff;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  padding: 14px 16px;
+  font-size: 11pt;
+  color: #0f172a;
+  white-space: pre-wrap;
+  font-family: 'Consolas', 'Courier New', monospace;
+}
+</style>
+</head>
+<body>
+<div class='header'>
+  <h1>Cronium Chat Prompts Archive</h1>
+  <p class='subtitle'>Exported Log of User Prompts for Microsoft Word • Project: Cronium</p>
+</div>
+
+<div class='prompt-card'>
+  <div class='prompt-title'>Prompt #1</div>
+  <div class='prompt-meta'>Task: Feature Removal & Subscription Tier Update • Attached: Business Revenue Image</div>
+  <div class='prompt-body'>Delete the Open Servers feature from our Home. Also, change the Cronium subscription to the statements in the image, but do not copy the subscription style (statements only).</div>
+</div>
+
+<div class='prompt-card'>
+  <div class='prompt-title'>Prompt #2</div>
+  <div class='prompt-meta'>Task: Export Chat Prompts to Word Document Format</div>
+  <div class='prompt-body'>Give me back Word docs that I can open in Word by copying every prompt I used in this chat.</div>
+</div>
+
+<hr style='border: none; border-top: 1px solid #e2e8f0; margin-top: 40px;'>
+<p style='color: #94a3b8; font-size: 9pt; text-align: center;'>Generated from Cronium Build Session • Ready to open or edit in Microsoft Word</p>
+</body>
+</html>

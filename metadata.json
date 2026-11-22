@@ -1,0 +1,6 @@
+{
+  "name": "Cronium - AI Communities & Network",
+  "description": "Next-generation community and messaging platform connecting people through AI matching, interactive servers, and direct messaging.",
+  "permissions": ["microphone"],
+  "capabilities": []
+}

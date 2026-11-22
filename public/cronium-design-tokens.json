@@ -1,0 +1,80 @@
+{
+  "$schema": "https://tr.designtokens.org/format/",
+  "meta": {
+    "name": "Cronium UI/UX Design Tokens",
+    "version": "1.0.0",
+    "compatibleWith": ["Figma Tokens Studio", "Style Dictionary", "W3C Design Tokens"]
+  },
+  "color": {
+    "brand": {
+      "primary": { "$value": "#5B35F8", "$type": "color", "$description": "Primary Cronium violet for buttons, active channels, and CTAs" },
+      "primaryHover": { "$value": "#6342F5", "$type": "color" },
+      "indigo": { "$value": "#4F46E5", "$type": "color", "$description": "Active navigation tabs and focus highlights" },
+      "indigoLight": { "$value": "#6366F1", "$type": "color" },
+      "softFill": { "$value": "#EEEBFE", "$type": "color", "$description": "Lavender badge and icebreaker surface" },
+      "softFillAlt": { "$value": "#F1EEFF", "$type": "color" },
+      "border": { "$value": "#CFC6FF", "$type": "color" }
+    },
+    "surface": {
+      "light": {
+        "appCanvas": { "$value": "#F5F8FF", "$type": "color" },
+        "homeCanvas": { "$value": "#F7F9FC", "$type": "color" },
+        "card": { "$value": "#FFFFFF", "$type": "color" },
+        "subtle": { "$value": "#F4F3FB", "$type": "color" },
+        "input": { "$value": "#F8FAFC", "$type": "color" },
+        "muted": { "$value": "#F1F5F9", "$type": "color" },
+        "divider": { "$value": "#EAE8F4", "$type": "color" },
+        "dividerStrong": { "$value": "#E6E3F2", "$type": "color" }
+      },
+      "dark": {
+        "appCanvas": { "$value": "#020617", "$type": "color" },
+        "card": { "$value": "#0F172A", "$type": "color" },
+        "elevated": { "$value": "#1E293B", "$type": "color" },
+        "divider": { "$value": "#1E293B", "$type": "color" }
+      }
+    },
+    "text": {
+      "primary": { "$value": "#14112C", "$type": "color" },
+      "heading": { "$value": "#0F172A", "$type": "color" },
+      "secondary": { "$value": "#524E6B", "$type": "color" },
+      "muted": { "$value": "#6F6A89", "$type": "color" },
+      "inverse": { "$value": "#FFFFFF", "$type": "color" }
+    },
+    "semantic": {
+      "online": { "$value": "#10B981", "$type": "color", "$description": "Online presence dot, online label, E2EE Active" },
+      "successDark": { "$value": "#059669", "$type": "color" },
+      "actionBlue": { "$value": "#2B8EF4", "$type": "color", "$description": "Photo/Video/Story composer actions" },
+      "actionBlueSoft": { "$value": "#D7EFFE", "$type": "color" },
+      "linkBlue": { "$value": "#0A66C2", "$type": "color" },
+      "cyan": { "$value": "#06B6D4", "$type": "color" },
+      "alert": { "$value": "#F43F5E", "$type": "color" }
+    }
+  },
+  "typography": {
+    "fontFamily": {
+      "hero": { "$value": "Outfit, Plus Jakarta Sans, system-ui, sans-serif", "$type": "fontFamily" },
+      "display": { "$value": "Plus Jakarta Sans, system-ui, sans-serif", "$type": "fontFamily" },
+      "body": { "$value": "Plus Jakarta Sans, system-ui, sans-serif", "$type": "fontFamily" }
+    },
+    "fontSize": {
+      "hero": { "$value": "26px", "$type": "dimension" },
+      "screenTitle": { "$value": "18px", "$type": "dimension" },
+      "cardTitle": { "$value": "15px", "$type": "dimension" },
+      "body": { "$value": "14px", "$type": "dimension" },
+      "caption": { "$value": "12px", "$type": "dimension" },
+      "micro": { "$value": "10px", "$type": "dimension" }
+    }
+  },
+  "radius": {
+    "deviceFrame": { "$value": "40px", "$type": "dimension" },
+    "modal": { "$value": "24px", "$type": "dimension" },
+    "card": { "$value": "16px", "$type": "dimension" },
+    "control": { "$value": "12px", "$type": "dimension" },
+    "pill": { "$value": "9999px", "$type": "dimension" }
+  },
+  "layout": {
+    "mobileFrameMaxWidth": { "$value": "448px", "$type": "dimension" },
+    "desktopSimulatorHeight": { "$value": "820px", "$type": "dimension" },
+    "bottomNavTabs": { "$value": "4", "$type": "number" }
+  }
+}
